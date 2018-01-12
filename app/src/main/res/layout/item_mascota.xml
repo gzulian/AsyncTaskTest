@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+
+    >
+    <TextView
+        android:id="@+id/itemCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_notifications_black_24dp"
+        android:text="A"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginRight="8dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gzulian"
+        android:layout_toRightOf="@id/itemCircle"
+        android:id="@+id/itemName"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comentario"
+        android:layout_below="@id/itemName"
+        android:id="@+id/itemRaza"
+        android:layout_toRightOf="@id/itemCircle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#cfd0dc"
+        android:layout_below="@id/itemCircle"
+        android:layout_marginTop="4dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:id="@+id/item_delete"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_id"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

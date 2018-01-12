@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragments">FragmentsActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="generos" >
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+</resources>
